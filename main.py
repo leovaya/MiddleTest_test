@@ -7,7 +7,7 @@ def main():
         print(f"Кількість слів: {words}")
         print(f"Кількість речень: {sentences}")
     except FileNotFoundError:
-        print("Помилка: Файл не знайдено! Переконайтеся, що 'sample.txt' існує.")
+        print("Помилка: Файл не знайдено! Переконайтеся, що 'test_file.txt' існує.")
     except Exception as e:
         print(f"Сталася помилка: {e}")
 

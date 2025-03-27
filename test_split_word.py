@@ -6,7 +6,7 @@ import split_word
 def create_txt_file(tmp_path):
     """Фікстура, яка створює тимчасові .txt файли та повертає їхній шлях"""
     def _create_file(content):
-        file = tmp_path / "test_file.txt"
+        file = tmp_path / "testfile.txt"
         file.write_text(content, encoding="utf-8")
         return str(file)
     return _create_file
